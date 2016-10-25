@@ -1,4 +1,8 @@
-run:
-	g++ vmPrism/FIFOPolicyRun.cpp vmPrism/FIFOPolicy.cpp -std=c++0x -o vmPrismRun
-	./vmPrismRun
-	rm -rf ./vmPrismRun
+CFLAGS = -Wall -std=c++0x
+DIR = vmPrism
+OBJ = FIFOPolicy.o
+OBJS = $(OBJ:%=$(DIR)/%)
+SRCS = $(OBJS:%.o=%.h)
+
+$(OBJS): $(SRCS)
+	g++ -c -o $@ $(CFLAGS) $(SRCS)
