@@ -1,4 +1,4 @@
-CFLAGS = -Wall -std=c++14
+CFLAGS = -Wall -std=c++0x
 DIR = vmPrism
 OBJ = FIFOPolicy.o
 OBJS = $(OBJ:%=$(DIR)/%)
