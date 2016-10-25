@@ -13,7 +13,6 @@
 #include <queue>
 #include <vector>
 #include <unordered_set>
-#include <stddef.h>
 
 class FIFO
 {
