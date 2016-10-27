@@ -28,7 +28,7 @@ FIFO::FIFO(size_t cacheSize, std::vector<size_t> pageRefList)
 		}
 	}
 
-	hitRatio = hitCount / pageRefList.size();
+	hitRatio = ((double) hitCount) / pageRefList.size();
 	pageFaultCount = pageRefList.size() - hitCount;
 }
 
