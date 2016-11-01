@@ -1,6 +1,8 @@
 #include "OPTPolicy.h"
 #include <iostream>
 
+#define UINT64_MAX 18446744073709551615ULL
+
 //Author      : Suvojit Manna
 //Application : vmPrism
 
