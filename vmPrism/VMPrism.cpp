@@ -3,6 +3,7 @@
 #include <string>
 #include "FIFOPolicy.h"
 #include "LRUPolicy.h"
+#include "OPTPolicy.h"
 
 int main(int argc, char** argv)
 {
@@ -78,10 +79,10 @@ int main(int argc, char** argv)
 	}
 	else if (algorithm.compare("OPT") == 0)
 	{
-		// OPT cal(cacheSize, refList);
-		// std::cout << cal.hit_ratio()  << std::endl;
-		// std::cout << cal.miss_ratio() << std::endl;
-		// std::cout << cal.page_fault() << std::endl;
+		 OPT cal(cacheSize, refList);
+		 std::cout << cal.hit_ratio()  << std::endl;
+		 std::cout << cal.miss_ratio() << std::endl;
+		 std::cout << cal.page_fault() << std::endl;
 	}
 	else
 	{
