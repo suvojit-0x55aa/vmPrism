@@ -11,7 +11,7 @@ The program reads the page reference list and calcultes the simulates the passed
 Supported Algorithms - 
 - [x] First In First Out (FIFO)
 - [x] Least Recently Used (LRU)
-- [ ] Optimal (OPT)
+- [x] Optimal (OPT)
   
 Example -
 If ```page_list.txt``` contains the following -
