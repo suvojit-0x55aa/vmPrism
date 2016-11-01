@@ -12,10 +12,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FIFOPolicy.h" />
+    <ClInclude Include="LRUPolicy.h" />
+    <ClInclude Include="OPTPolicy.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FIFOPolicy.cpp" />
     <ClCompile Include="FIFOPolicyRun.cpp" />
+    <ClCompile Include="LRUPolicy.cpp" />
+    <ClCompile Include="LRUPolicyRun.cpp" />
+    <ClCompile Include="OPTPolicy.cpp" />
+    <ClCompile Include="OPTPolicyRun.cpp" />
+    <ClCompile Include="VMPrism.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{493BF5FA-9C47-480E-9CF5-A704457A6563}</ProjectGuid>
