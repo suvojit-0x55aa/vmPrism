@@ -21,12 +21,33 @@
     <ClInclude Include="FIFOPolicy.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="LRUPolicy.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OPTPolicy.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FIFOPolicy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="FIFOPolicyRun.cpp">
+      <Filter>Source Files\Runs</Filter>
+    </ClCompile>
+    <ClCompile Include="LRUPolicy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VMPrism.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LRUPolicyRun.cpp">
+      <Filter>Source Files\Runs</Filter>
+    </ClCompile>
+    <ClCompile Include="OPTPolicy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OPTPolicyRun.cpp">
       <Filter>Source Files\Runs</Filter>
     </ClCompile>
   </ItemGroup>
