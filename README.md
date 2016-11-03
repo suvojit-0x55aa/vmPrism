@@ -3,7 +3,13 @@
 
 Compare diffrent page replacement algortihms.
 ***********
-#How to Use
+## Installing
+To compile go to directory 
+```
+make
+```
+***********
+##How to Use
 ```
 ./vmPrism <cache_size> <page_reference_list_file> <algorithm>
 ```
