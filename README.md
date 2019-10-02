@@ -28,3 +28,14 @@ Using the following command to run FIFO on a Cache Size = 3 -
 ```
 ./vmPrism 3 page_list.txt FIFO
 ```
+***********
+## Testing
+
+You should have `Google Test Lib` installed on your computer :
+
+    apt install libgtest-dev
+
+Or run it with Docker
+
+     docker build -t vmPrismTest .
+     docker run -ti vmPrismTest
